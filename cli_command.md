@@ -1,13 +1,13 @@
 # Linux
 Linux commands 
-===========================bash ===========================
+=========================== start bash  ===========================
 #!/bin/bash
 # Author:  Yehonatan Tzroyua.
 # Created: xxxx-xx-xx.
 #Updated: xxxx-xx-xx. 
 #Purpose: xxxxxxxxxxxxxxxxxxxxxxxxxx
 
-=========== colse tar command ==================
+=========== close tar command ==================
 
 tar -xvf /tmp/yoni.tar.gz -C / my_tar---------- OPEN TAR
 

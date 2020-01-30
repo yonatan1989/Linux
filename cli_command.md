@@ -1,5 +1,11 @@
 # Linux
 Linux commands 
+===========================bash ===========================
+#!/bin/bash
+# Author:  Yehonatan Tzroyua.
+# Created: xxxx-xx-xx.
+#Updated: xxxx-xx-xx. 
+#Purpose: xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 =========== colse tar command ==================
 
@@ -57,13 +63,6 @@ vi /etc/security/limits.conf
 * soft nofile 500000
 
 * hard nofile 500000
-
-===========================bash ===========================
-#!/bin/bash
-# Author:  Yehonatan Tzroyua.
-# Created: xxxx-xx-xx.
-#Updated: xxxx-xx-xx. 
-#Purpose: xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ===============mount=========================
 

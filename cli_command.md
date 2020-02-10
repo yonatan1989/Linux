@@ -72,6 +72,8 @@ mount -t nfs $hostname:/$nameofmount
 
 mount -a
 
+mount /dev/cdrom /root/cdrom 
+
 =============crontab==============
 
 crontab -l ===== for list 
@@ -102,5 +104,11 @@ find /opt/jboss/\&yoni\& -type f mtime +8 | -exec rm {}+
 ==============version=============================
 
 cat /etc/os-release
+
+==========file ============================
+
+file xxxx - understand king of file in the system 
+
+
 
 

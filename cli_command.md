@@ -122,16 +122,32 @@ rpm -e --nodeps iptable
 
 rpm -u filename --- upgrade 
 
-==============fdisk===============
-
-
-
-
-=========firewall =======
+=========firewall =================
 
 service iptable stop 
 
-=========
+=========cretae disk ==============
+1.fdisk -l ==== list all the disk 
+df -h ===== list for all mount disk 
+2.fdisk /dev/sdb2
+m
+n
+p
+defult
+defult ( or +1g)
+w =====write to disk 
+fdisk -l
+3.fsck.ext4 /dev/sdb2 == format the disk 
+mkfs /dev/sdb2
+4. mkdir xxxx ====== mount the partiton
+   mount /dev/sdb2 xxxx
+5. /etc/fstab --- save the mount 
+   add the mount to file 
+==============LVM================= 
+
+
+
+
 
 
 

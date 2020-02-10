@@ -114,6 +114,8 @@ file xxxx - understand king of file in the system
 
 rpm -ivh webmin.rpm 
 
+rpm -qa | grep webmin
+
 =========firewall =======
 
 service iptable stop 

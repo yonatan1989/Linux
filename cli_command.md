@@ -122,6 +122,10 @@ rpm -e --nodeps iptable
 
 rpm -u filename --- upgrade 
 
+==============fdisk===============
+
+
+
 
 =========firewall =======
 

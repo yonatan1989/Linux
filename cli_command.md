@@ -116,9 +116,18 @@ rpm -ivh webmin.rpm
 
 rpm -qa | grep webmin
 
+rpm -e webmin.rpm 
+
+rpm -e --nodeps iptable 
+
+rpm -u filename --- upgrade 
+
+
 =========firewall =======
 
 service iptable stop 
+
+=========
 
 
 

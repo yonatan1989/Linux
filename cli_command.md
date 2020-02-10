@@ -110,5 +110,15 @@ cat /etc/os-release
 file xxxx - understand king of file in the system 
 
 
+=======rpm =======================
+
+rpm -ivh webmin.rpm 
+
+=========firewall =======
+
+service iptable stop 
+
+
+
 
 

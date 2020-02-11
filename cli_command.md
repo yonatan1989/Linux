@@ -58,14 +58,14 @@ egrep –color ‘Mem|Cache|Swap’ /proc/meminfo
 free -h
 =============security( fix the issue with premission after mount windows mount )===========================
 
-vi /etc/security/limits.conf
+ Ulimit -a
+ vi /etc/security/limits.conf
 
 * soft nofile 500000
 
 * hard nofile 500000
 
 ===============mount=========================
-
 /etc/fstab
 
 mount -t nfs $hostname:/$nameofmount
@@ -155,7 +155,16 @@ umask xxx.txt
 
 locate bashrc 
 
-========================
+====================ln -s =================================
+
+ln -s /opt/jboss/T24/jars/t24lib lib
+ ln -s /opt/jboss/T24/jars/leumiT24lib leumiT24lib
+ ln -s /opt/jboss/T24/jars/gpackjars gpackjars
+  ln -s  /opt/jboss/T24/jars/semlib semlib
+
+
+
+
 
 
 

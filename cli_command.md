@@ -147,6 +147,17 @@ mkfs /dev/sdb2
 
 
 
+=======umask================
+
+change the permission when you are crate file .
+
+umask xxx.txt
+
+locate bashrc 
+
+========================
+
+
 
 
 
